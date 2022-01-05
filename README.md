@@ -1293,11 +1293,7 @@ int x = Convert.ToInt32(TestContext.DataRow["FirstNumber"]);
 
 
 
-```plantuml
 
-Bob -> Alice : Привет!
-
-```
 
 ---
 
