@@ -1292,7 +1292,23 @@ int x = Convert.ToInt32(TestContext.DataRow["FirstNumber"]);
 После исправления тестируемого метода и повторного выполнения теста панель результатов станет зеленой и метод теста переместится в группу Пройденные тесты.
 
 
+@startuml
+Entity01 }|..|| Entity02
+Entity03 }o..o| Entity04
+Entity05 ||--o{ Entity06
+Entity07 |o--|| Entity08
+@enduml
 
+```plantuml
+
+@startuml
+Entity01 }|..|| Entity02
+Entity03 }o..o| Entity04
+Entity05 ||--o{ Entity06
+Entity07 |o--|| Entity08
+@enduml
+
+``
 
 
 ---
