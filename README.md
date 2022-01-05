@@ -1290,37 +1290,3 @@ int x = Convert.ToInt32(TestContext.DataRow["FirstNumber"]);
 При выполнении метода AddIntegers_FromDataSourceTest в нашем примере панель результатов станет красной, а метод теста переместится в группу Неудачные тесты. Тест, управляемый данными, завершается с ошибкой, если какая-либо итерация из источника данных завершается неудачно. При выборе неудачных тестов, управляемых данными, в окне обозревателя тестов на панели сведений выводятся результаты каждой итерации в соответствии с индексом строки данных. В этом примере оказывается, что алгоритм AddIntegers неправильно обрабатывает отрицательные значения.
 
 После исправления тестируемого метода и повторного выполнения теста панель результатов станет зеленой и метод теста переместится в группу Пройденные тесты.
-
-
-@startuml
-Entity01 }|..|| Entity02
-Entity03 }o..o| Entity04
-Entity05 ||--o{ Entity06
-Entity07 |o--|| Entity08
-@enduml
-
----
-
-```plantuml
-
-@startuml
-Entity01 }|..|| Entity02
-Entity03 }o..o| Entity04
-Entity05 ||--o{ Entity06
-Entity07 |o--|| Entity08
-@enduml
-```
-
-
----
-
-
-<details>
-  <summary markdown="span">This is the summary text, click me to expand</summary>
-
-  This is the detailed text.
-
-  We can still use markdown, but we need to take the additional step of using the `parse_block_html` option as described in the [Mix HTML + Markdown Markup section](#mix-html--markdown-markup).
-
-  You can learn more about expected usage of this approach in the [GitLab UI docs](https://gitlab-org.gitlab.io/gitlab-ui/?path=/story/base-collapse--default) though the solution we use above is specific to usage in markdown.
-</details>
