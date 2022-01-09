@@ -106,4 +106,4 @@
 |58| Практическая работа 33. Тестирование транзакций
 
 ---
-<a href = "http://kcdo.stvcc.ru/course/view.php?id=393"> Курс на на moodle </a>
+<a href = "http://kcdo.stvcc.ru/course/view.php?id=393"> Курс moodle </a>
