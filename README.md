@@ -8,13 +8,6 @@
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 
-
-
-- 15 лекциий + 10 лекций
-- 18 практик + 15 практик
-
-
-
 ## Тема 1: Отладка программных модулей
 |Номер|Тема|
 |:--|:--|
